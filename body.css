@@ -28,7 +28,7 @@ a:hover {
 }
 
 .thm {
-  width: 200%;
+  width: 50%;
 }
 
 .thm:hover {
@@ -47,4 +47,10 @@ a:hover {
 .top-right {
   flex: 50%;
   text-align: right;
+}
+.fontchange {
+  font-size: 10px;
+}
+.popularpost:hover {
+  opacity: 0.9;
 }
