@@ -26,14 +26,6 @@ a:hover {
 .icon:hover {
   opacity: 0.9;
 }
-
-.thm {
-  width: 50%;
-}
-
-.thm:hover {
-  opacity: 0.9;
-}
 .flexitem {
   display: flex;
   flex-wrap: wrap;
