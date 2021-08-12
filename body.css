@@ -4,6 +4,7 @@
 }
 .tcolor {
   color: turquoise;
+  text-decoration: none;
 }
 .font_size {
   font-size: 15px;
@@ -11,10 +12,10 @@
 a {
   color: black;
   font-size: inherit;
+  text-decoration: none;
 }
 a:hover {
   color: turquoise;
-  text-decoration: none;
 }
 .font_size2 {
   font-size: small;
@@ -45,4 +46,13 @@ a:hover {
 }
 .popularpost:hover {
   opacity: 0.9;
+}
+.popular_card a {
+  text-decoration: none;
+  color: black;
+}
+
+.popular_card a:hover {
+  color: turquoise;
+  cursor: pointer;
 }
