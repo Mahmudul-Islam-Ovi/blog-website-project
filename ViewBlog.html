@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link rel="stylesheet" href="./ViewBlog.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js" async defer></script>
@@ -17,8 +18,74 @@
 </head>
 
 <body>
-    <br />
-    <div class="container-fluid">
+         <!------------------------Header start----------------------------->
+         <header>
+
+
+
+            <!-------------------------Nav Start--------------------->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                   <a href=""><img src="./assets/image/Kate-logo.png" alt=""></a> 
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active"  aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Features
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <!---------------------2nd dropdown start------------>   
+                          <li class="hover-me"><a class="dropdown-item" href="#">Multidropdown <i class="fa fa-angle-right"></i></a>
+                            <ul class="submenu dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                              <li><a class="dropdown-item" href="#">Dropdown2</a></li>
+                              <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                            </ul>
+                          </li>
+    <!---------------------2nd dropdown end------------>
+                          <li><a class="dropdown-item" href="#">Shortcodes</a></li>
+                          <li><a class="dropdown-item" href="#">Sitemap</a></li>
+                          <li><a class="dropdown-item" href="#">Error page</a></li>
+                         
+                        </ul>
+                      </li>
+                     
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Documentation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Web Documentation</a></li>
+                          <li><a class="dropdown-item" href="#">Video Documentation</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search this blog" aria-label="Search">
+                      <button class="btn btn-outline-success"   type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+    <!-------------------------Nav End--------------------->
+    
+    
+    
+    
+    
+    
+        </header>
+    <!------------------------Header end----------------------------->
+    <br/>
+    <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="card" style="width: auto">
@@ -460,15 +527,75 @@
             </div>
         </div>
     </div>
-    </div>
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
-
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
-        nonce="pkJUZamB"></script>
+    <br/>
+    <footer>
+        <!---------------------------------------------footer Start-------------------------------->
+        <div class="footer">
+            <!-----------Upper------------Portion------start--------->
+                <div class="Upper-footer">
+                <div class="row">
+                
+                        <div class="left-part col-md-8 d-flex justify-content-center" >
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    <img src="./assets/image/Kate-logo-White.png" alt="">
+                                </div>
+                                <div class="col-sm-8 ">
+                                    <p> lorem a ullam sapiente exercitationem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Soluta minima alias tenetur, iste facilis dolores inventore odit explicabo libero nisi unde 
+                                        v oluptate laboriosam maxime quos assumenda. Officiis ratione ex eaque!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="right-part col-md-4 d-flex justify-content-center">
+                     <a href="" style="background-color: #135db9"><i  class="fab fa-facebook-f"></i></a>
+                     <a href="" style="background-color:  #428fef"><i class="fab fa-twitter"></i></a> 
+                     <a href="" style="background-color:   #e0c110;"> <i class="fas fa-rss"></i></a>
+                     <a href="" style="background-color:  #b9275a;"><i class="fab fa-instagram"></i></a> 
+                     <a href="" style="background-color: #e03a47"><i class="fab fa-youtube"></i></a>
+                     <a href="" style="background-color:  #0e76a8"><i class="fab fa-linkedin-in"></i></a>
+                     <a href="" style="background-color: red"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                 </div>
+                </div>
+                 <!-----------Upper------------Portion------end--------->
+        
+        
+        
+        
+                                    <!-----------Lower------------Portion------start--------->
+        
+                            <div class="lower-footer">
+                                <div class="row">
+                                    
+                                    <div class="lower-left col-md-6 d-flex justify-content-center">
+                                     
+                                        <a href="">Home</a>
+                                        <a href="">About</a>
+                                        <a href="">Contact Us</a>
+                                    </div>
+                                    <div class="lower-right col-md-6">
+                                            <p>Created By <span>SoraTemplates</span></p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!-----------Lower------------Portion------End--------->
+        
+        
+        
+        </div>
+        <!---------------------------------------------footer End-------------------------------->
+        
+      </footer>
+      
+      
+      <!-----------------------Scroll to top Button start ------------------>
+        <div class="scroll-button">
+          <button class="scroll-btn" onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-circle-up"></i></button>
+        </div>
+      <!-----------------------Scroll  to top Button end ------------------>
 </body>
 
 </html>
