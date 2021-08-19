@@ -51,8 +51,3 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-
-.popular_card a:hover {
-  color: turquoise;
-  cursor: pointer;
-}

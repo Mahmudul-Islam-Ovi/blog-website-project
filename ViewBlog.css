@@ -8,11 +8,11 @@
   border-left: 10px solid green;
   border-top-right-radius: 5%;
 }
-.icon {
+.icon2 {
   width: 8%;
   border-radius: 7%;
 }
-.icon:hover {
+.icon2:hover {
   opacity: 0.9;
 }
 
@@ -33,4 +33,67 @@ body {
 
 .fs-10 {
   font-size: 12px;
+}
+.flexitem {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ccc;
+}
+
+.top-left {
+  flex: 50%;
+}
+
+.top-right {
+  flex: 50%;
+  text-align: right;
+}
+.fontchange {
+  font-size: 10px;
+}
+.popularpost:hover {
+  opacity: 0.9;
+}
+.popular_card a {
+  text-decoration: none;
+  color: black;
+}
+
+.popular_card a:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+.icon {
+  width: 16.4%;
+  border-radius: 7%;
+}
+.icon:hover {
+  opacity: 0.9;
+}
+.tcolor {
+  color: turquoise;
+  text-decoration: none;
+}
+.top-left {
+  flex: 50%;
+}
+
+.top-right {
+  flex: 50%;
+  text-align: right;
+}
+.fontchange {
+  font-size: 10px;
+}
+.font_size2 {
+  font-size: small;
+}
+a {
+  color: black;
+  font-size: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: turquoise;
+  text-decoration: none;
 }
