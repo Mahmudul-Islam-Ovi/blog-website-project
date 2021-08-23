@@ -9,85 +9,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./ViewBlog.css" />
+    <link rel="stylesheet" href="./css/ViewBlog.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js" async defer></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
-         <!------------------------Header start----------------------------->
-         <header>
+    <!------------------------Header start----------------------------->
+    <header>
 
 
 
-            <!-------------------------Nav Start--------------------->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                   <a href=""><img src="./assets/image/Kate-logo.png" alt=""></a> 
-                  
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-------------------------Nav Start--------------------->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="./index.html"><img src="./assets/image/Kate-logo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active"  aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Features
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <!---------------------2nd dropdown start------------>   
-                          <li class="hover-me"><a class="dropdown-item" href="#">Multidropdown <i class="fa fa-angle-right"></i></a>
-                            <ul class="submenu dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                              <li><a class="dropdown-item" href="#">Dropdown2</a></li>
-                              <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!---------------------2nd dropdown start------------>
+                                <li class="hover-me"><a class="dropdown-item" href="#">Multidropdown <i
+                                            class="fa fa-angle-right"></i></a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                                        <li><a class="dropdown-item" href="#">Dropdown2</a></li>
+                                        <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                                    </ul>
+                                </li>
+                                <!---------------------2nd dropdown end------------>
+                                <li><a class="dropdown-item" href="#">Shortcodes</a></li>
+                                <li><a class="dropdown-item" href="#">Sitemap</a></li>
+                                <li><a class="dropdown-item" href="#">Error page</a></li>
+
                             </ul>
-                          </li>
-    <!---------------------2nd dropdown end------------>
-                          <li><a class="dropdown-item" href="#">Shortcodes</a></li>
-                          <li><a class="dropdown-item" href="#">Sitemap</a></li>
-                          <li><a class="dropdown-item" href="#">Error page</a></li>
-                         
-                        </ul>
-                      </li>
-                     
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Documentation
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Web Documentation</a></li>
-                          <li><a class="dropdown-item" href="#">Video Documentation</a></li>
-                        </ul>
-                      </li>
-                      
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Documentation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Web Documentation</a></li>
+                                <li><a class="dropdown-item" href="#">Video Documentation</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                     <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search this blog" aria-label="Search">
-                      <button class="btn btn-outline-success"   type="submit"><i class="fas fa-search"></i></button>
+                        <input class="form-control me-2" type="search" placeholder="Search this blog"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
                     </form>
-                  </div>
                 </div>
-              </nav>
-    <!-------------------------Nav End--------------------->
-    
-    
-    
-    
-    
-    
-        </header>
+            </div>
+        </nav>
+        <!-------------------------Nav End--------------------->
+
+
+
+
+
+
+    </header>
     <!------------------------Header end----------------------------->
-    <br/>
+    <br />
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                <!------------------------Main Blog Start----------------------------->
                 <div class="card" style="width: auto">
                     <div class="card-body">
                         <div class="card-header text-muted">Featured</div>
@@ -97,7 +114,7 @@
                         </h2>
                         <div class="d-flex flex-row bd-highlight mb-3 text-muted">
                             <small class="p-2 bd-highlight">
-                                
+
                                 <a href="google.com "> <i class="fa fa-user mr-1"></i>Sora blogging tips</a>
                                 </samll>
                                 <samll class="p-2 bd-highlight"> <i class="fa fa-clock-o p-1"></i>March 8, 2012
@@ -160,194 +177,325 @@
                     </div>
                 </div>
                 <div class="container m-2">
-                        <div class="row">
-                          <div class="col-6">
-                            <div class="d-flex justify-content-start"><button type="button" class="btn btn-success"> < Old Post</button></div>
-                          </div>
-                          <div class="col-6">
-                            <div class="d-flex justify-content-end"><button type="button" class="btn btn-success">New Post ></button></div>
-                          </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="d-flex justify-content-start"><button type="button" class="btn btn-success">
+                                    < Old Post</button>
+                            </div>
                         </div>
+                        <div class="col-6">
+                            <div class="d-flex justify-content-end"><button type="button" class="btn btn-success">New
+                                    Post ></button></div>
+                        </div>
+                    </div>
                 </div>
+                <!------------------------Main Blog End----------------------------->
                 </br>
+                <!------------------------Featured Blog Start----------------------------->
                 <div class="card" style="width: auto">
                     <div class="card-body">
                         <div class="card-header text-muted">Featured</div>
                     </div>
-                    <div class="card-group">
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/image/21.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col-md-12">
+                        <div class="featured-carousel owl-carousel">
+                            <div class="item">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/23.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Continue<span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
+
+                            <div class="item" style="padding: 0%;">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/24.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                                  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/25.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/26.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/27.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="blog-entry">
+                                    <a href="#" class="block-20 d-flex align-items-start"
+                                        style="background-image: url('./assets/image/28.jpg');">
+                                        <div class="meta-date text-center p-2">
+                                            <span class="day">26</span>
+                                            <span class="mos">Nov.</span>
+                                            <span class="yr">2019</span>
+                                        </div>
+                                    </a>
+                                    <div class="text border border-top-0 p-4">
+                                        <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur
+                                                Throughout</a></h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.</p>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+                                                        class="ion-ios-arrow-round-forward"></span></a></p>
+                       
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/image/21.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/image/21.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This card has even longer content than the first to
-                                    show that equal height action.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
-            </br>
-                    <div class="mt-3 d-flex justify-content-center">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-md-12">
-                                <div class="text-left">
-                                    <h6>All comment(5)</h6>
-                                </div>
-                                <div  class="card p-3 mb-2">
-                                    <div class="d-flex flex-row"> <img
-                                            src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
-                                            height="40" width="40" class="rounded-circle">
-                                        <div class="d-flex flex-column ms-2 ml-4">
-                                            <h6 class="mb-1 text-primary">Emma</h6>
-                                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
-                                                Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
-                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                                inceptos himenaeos. Quisque risus mauris</p>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex flex-row gap-3 align-items-center">
-                                            <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
-                                                    class="ms-1 fs-10 pl-2">Like</span> </div>
-                                            <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
-                                                <span class="ms-1 fs-10 pl-2">Comments</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
-                                                22,2020 12:10 PM</span> </div>
+                <!------------------------Featured Blog End----------------------------->
+                </br>
+                <!------------------------Comment Section Start----------------------------->
+                <div class="mt-3 d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-12">
+                            <div class="text-left">
+                                <h6>All comment(5)</h6>
+                            </div>
+                            <div class="card p-3 mb-2">
+                                <div class="d-flex flex-row"> <img
+                                        src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                        height="40" width="40" class="rounded-circle">
+                                    <div class="d-flex flex-column ms-2 ml-4">
+                                        <h6 class="mb-1 text-primary">Emma</h6>
+                                        <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
+                                            Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                            inceptos himenaeos. Quisque risus mauris</p>
                                     </div>
                                 </div>
-                                <div class="card p-3 mb-2">
-                                    <div class="d-flex flex-row"> <img
-                                            src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
-                                            height="40" width="40" class="rounded-circle">
-                                        <div class="d-flex flex-column ms-2 ml-4">
-                                            <h6 class="mb-1 text-primary">Morne Micheal</h6>
-                                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
-                                                Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
-                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                                inceptos himenaeos. Quisque risus mauris</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row gap-3 align-items-center">
+                                        <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
+                                                class="ms-1 fs-10 pl-2">Like</span> </div>
+                                        <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
+                                            <span class="ms-1 fs-10 pl-2">Comments</span>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex flex-row gap-3 align-items-center">
-                                            <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
-                                                    class="ms-1 fs-10 pl-2">Like</span> </div>
-                                            <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
-                                                <span class="ms-1 fs-10 pl-2">Comments</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
-                                                21,2020 1:10 PM</span> </div>
+                                    <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
+                                            22,2020 12:10 PM</span> </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 mb-2">
+                                <div class="d-flex flex-row"> <img
+                                        src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                        height="40" width="40" class="rounded-circle">
+                                    <div class="d-flex flex-column ms-2 ml-4">
+                                        <h6 class="mb-1 text-primary">Morne Micheal</h6>
+                                        <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
+                                            Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                            inceptos himenaeos. Quisque risus mauris</p>
                                     </div>
                                 </div>
-                                <div class="card p-3 mb-2">
-                                    <div class="d-flex flex-row"> <img
-                                            src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
-                                            height="40" width="40" class="rounded-circle">
-                                        <div class="d-flex flex-column ms-2 ml-4">
-                                            <h6 class="mb-1 text-primary">Tommy Hifig</h6>
-                                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
-                                                Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
-                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                                inceptos himenaeos. Quisque risus mauris</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row gap-3 align-items-center">
+                                        <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
+                                                class="ms-1 fs-10 pl-2">Like</span> </div>
+                                        <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
+                                            <span class="ms-1 fs-10 pl-2">Comments</span>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex flex-row gap-3 align-items-center">
-                                            <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
-                                                    class="ms-1 fs-10 pl-2">Like</span> </div>
-                                            <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
-                                                <span class="ms-1 fs-10 pl-2">Comments</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
-                                                12,2020 12:10 PM</span> </div>
+                                    <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
+                                            21,2020 1:10 PM</span> </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 mb-2">
+                                <div class="d-flex flex-row"> <img
+                                        src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                        height="40" width="40" class="rounded-circle">
+                                    <div class="d-flex flex-column ms-2 ml-4">
+                                        <h6 class="mb-1 text-primary">Tommy Hifig</h6>
+                                        <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
+                                            Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                            inceptos himenaeos. Quisque risus mauris</p>
                                     </div>
                                 </div>
-                                <div class="card p-3 mb-2">
-                                    <div class="d-flex flex-row"> <img
-                                            src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
-                                            height="40" width="40" class="rounded-circle">
-                                        <div class="d-flex flex-column ms-2 ml-4">
-                                            <h6 class="mb-1 text-primary">Emma</h6>
-                                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
-                                                Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
-                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                                inceptos himenaeos. Quisque risus mauris</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row gap-3 align-items-center">
+                                        <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
+                                                class="ms-1 fs-10 pl-2">Like</span> </div>
+                                        <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
+                                            <span class="ms-1 fs-10 pl-2">Comments</span>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex flex-row gap-3 align-items-center">
-                                            <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
-                                                    class="ms-1 fs-10 pl-2">Like</span> </div>
-                                            <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
-                                                <span class="ms-1 fs-10 pl-2">Comments</span>
-                                            </div>
+                                    <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
+                                            12,2020 12:10 PM</span> </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 mb-2">
+                                <div class="d-flex flex-row"> <img
+                                        src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                        height="40" width="40" class="rounded-circle">
+                                    <div class="d-flex flex-column ms-2 ml-4">
+                                        <h6 class="mb-1 text-primary">Emma</h6>
+                                        <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Sed lectus nibh, efficitur in bibendum id, pellentesque quis nibh.
+                                            Ut dictum facilisis dui, non faucibus dolor sit amet lorem auctor vitae.
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                            inceptos himenaeos. Quisque risus mauris</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row gap-3 align-items-center">
+                                        <div class="d-flex align-items-center"> <i class="fa fa-heart-o"></i> <span
+                                                class="ms-1 fs-10 pl-2">Like</span> </div>
+                                        <div class="d-flex align-items-center pl-4"> <i class="fa fa-comment-o"></i>
+                                            <span class="ms-1 fs-10 pl-2">Comments</span>
                                         </div>
-                                        <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
-                                                22,2020 12:10 PM</span> </div>
+                                    </div>
+                                    <div class="d-flex flex-row"> <span class="text-muted fw-normal fs-10">May
+                                            22,2020 12:10 PM</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------Commenting feature Start----------------------------->
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-2"> <img
+                                src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                width="70" class="rounded-circle mt-2"> </div>
+                        <div class="col-10">
+                            <div class="comment-box ml-2">
+                                <h4>Add a comment</h4>
+                                <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label
+                                        for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label
+                                        for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label
+                                        for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label
+                                        for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label
+                                        for="1">☆</label> </div>
+                                <div class="comment-area"> <textarea class="form-control"
+                                        placeholder="what is your view?" rows="4"></textarea> </div>
+                                <div class="comment-btns mt-2">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="pull-left"> <button
+                                                    class="btn btn-success btn-sm">Cancel</button> </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="pull-right"> <button class="btn btn-success send btn-sm">Send <i
+                                                        class="fa fa-long-arrow-right ml-1"></i></button> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card p-4">
-                        <div class="row">
-                            <div class="col-2"> <img src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png" width="70" class="rounded-circle mt-2"> </div>
-                            <div class="col-10">
-                                <div class="comment-box ml-2">
-                                    <h4>Add a comment</h4>
-                                    <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> </div>
-                                    <div class="comment-area"> <textarea class="form-control" placeholder="what is your view?" rows="4"></textarea> </div>
-                                    <div class="comment-btns mt-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="pull-left"> <button class="btn btn-success btn-sm">Cancel</button> </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="pull-right"> <button class="btn btn-success send btn-sm">Send <i class="fa fa-long-arrow-right ml-1"></i></button> </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <!------------------------Commenting feature End----------------------------->
+                <!------------------------Comment section End----------------------------->
                 </br>
             </div>
+            <!-------------------------Right Side Content ---------------------------->
             <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <div>
+                    <!-------------------------Icons ---------------------------->
                     <div class="card" style="width: 23rem">
                         <div class="card-body">
                             <h5 class="card-title tcolor">Social Plagin</h5>
@@ -378,7 +526,7 @@
                     </div>
                     <br />
 
-                    <!-- popular post -->
+                    <!-------------------------Populer Post ---------------------------->
                     <div class="popular_card">
                         <div class="card" style="width: 23rem">
                             <div class="card-body" sm="12">
@@ -422,6 +570,7 @@
                         </div>
                     </div>
                     <br />
+                    <!-------------------------Youtube Link ---------------------------->
                     <div class="card" style="width: 23rem">
                         <div class="card-body">
                             <h5 class="card-title tcolor">Subscribe Us</h5>
@@ -434,6 +583,7 @@
                         </div>
                     </div>
                     <br />
+                    <!-------------------------Facebook Link ---------------------------->
                     <div class="card" style="width: 23rem">
                         <div class="card-body">
                             <h5 class="card-title tcolor">Facebook</h5>
@@ -449,6 +599,7 @@
                         </div>
                     </div>
                     <br />
+                    <!-------------------------category---------------------------->
                     <div class="popular_card">
                         <div class="card" style="width: 23rem">
                             <div class="card-body">
@@ -527,75 +678,82 @@
             </div>
         </div>
     </div>
-    <br/>
+    <br />
     <footer>
         <!---------------------------------------------footer Start-------------------------------->
         <div class="footer">
             <!-----------Upper------------Portion------start--------->
-                <div class="Upper-footer">
+            <div class="Upper-footer">
                 <div class="row">
-                
-                        <div class="left-part col-md-8 d-flex justify-content-center" >
-                            <div class="row">
-                                <div class="col-sm-4 ">
-                                    <img src="./assets/image/Kate-logo-White.png" alt="">
-                                </div>
-                                <div class="col-sm-8 ">
-                                    <p> lorem a ullam sapiente exercitationem Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                 Soluta minima alias tenetur, iste facilis dolores inventore odit explicabo libero nisi unde 
-                                        v oluptate laboriosam maxime quos assumenda. Officiis ratione ex eaque!
-                                    </p>
-                                </div>
+
+                    <div class="left-part col-md-8 d-flex justify-content-center">
+                        <div class="row">
+                            <div class="col-sm-4 ">
+                                <img src="./assets/image/Kate-logo-White.png" alt="">
+                            </div>
+                            <div class="col-sm-8 ">
+                                <p> lorem a ullam sapiente exercitationem Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Soluta minima alias tenetur, iste facilis dolores inventore odit explicabo libero
+                                    nisi unde
+                                    v oluptate laboriosam maxime quos assumenda. Officiis ratione ex eaque!
+                                </p>
                             </div>
                         </div>
-                    <div class="right-part col-md-4 d-flex justify-content-center">
-                     <a href="" style="background-color: #135db9"><i  class="fab fa-facebook-f"></i></a>
-                     <a href="" style="background-color:  #428fef"><i class="fab fa-twitter"></i></a> 
-                     <a href="" style="background-color:   #e0c110;"> <i class="fas fa-rss"></i></a>
-                     <a href="" style="background-color:  #b9275a;"><i class="fab fa-instagram"></i></a> 
-                     <a href="" style="background-color: #e03a47"><i class="fab fa-youtube"></i></a>
-                     <a href="" style="background-color:  #0e76a8"><i class="fab fa-linkedin-in"></i></a>
-                     <a href="" style="background-color: red"><i class="fab fa-pinterest"></i></a>
                     </div>
-                 </div>
+                    <div class="right-part col-md-4 d-flex justify-content-center">
+                        <a href="" style="background-color: #135db9"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" style="background-color:  #428fef"><i class="fab fa-twitter"></i></a>
+                        <a href="" style="background-color:   #e0c110;"> <i class="fas fa-rss"></i></a>
+                        <a href="" style="background-color:  #b9275a;"><i class="fab fa-instagram"></i></a>
+                        <a href="" style="background-color: #e03a47"><i class="fab fa-youtube"></i></a>
+                        <a href="" style="background-color:  #0e76a8"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="" style="background-color: red"><i class="fab fa-pinterest"></i></a>
+                    </div>
                 </div>
-                 <!-----------Upper------------Portion------end--------->
-        
-        
-        
-        
-                                    <!-----------Lower------------Portion------start--------->
-        
-                            <div class="lower-footer">
-                                <div class="row">
-                                    
-                                    <div class="lower-left col-md-6 d-flex justify-content-center">
-                                     
-                                        <a href="">Home</a>
-                                        <a href="">About</a>
-                                        <a href="">Contact Us</a>
-                                    </div>
-                                    <div class="lower-right col-md-6">
-                                            <p>Created By <span>SoraTemplates</span></p>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <!-----------Lower------------Portion------End--------->
-        
-        
-        
+            </div>
+            <!-----------Upper------------Portion------end--------->
+
+
+
+
+            <!-----------Lower------------Portion------start--------->
+
+            <div class="lower-footer">
+                <div class="row">
+
+                    <div class="lower-left col-md-6 d-flex justify-content-center">
+
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                    <div class="lower-right col-md-6">
+                        <p>Created By <span>SoraTemplates</span></p>
+                    </div>
+
+                </div>
+            </div>
+            <!-----------Lower------------Portion------End--------->
+
+
+
         </div>
         <!---------------------------------------------footer End-------------------------------->
-        
-      </footer>
-      
-      
-      <!-----------------------Scroll to top Button start ------------------>
-        <div class="scroll-button">
-          <button class="scroll-btn" onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-circle-up"></i></button>
-        </div>
-      <!-----------------------Scroll  to top Button end ------------------>
+
+    </footer>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+        nonce="pkJUZamB"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+
+    <!-----------------------Scroll to top Button start ------------------>
+    <div class="scroll-button">
+        <button class="scroll-btn" onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-circle-up"></i></button>
+    </div>
+    <!-----------------------Scroll  to top Button end ------------------>
+
 </body>
 
 </html>

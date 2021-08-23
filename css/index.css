@@ -50,6 +50,7 @@ a:hover {
 .popular_card a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 body {
@@ -91,7 +92,7 @@ body {
   color: #1f2024;
 }
 .featured-slidebar {
-  background: url(./assets/image/mountain2.jpg);
+  background: url(../assets/image/mountain2.jpg);
   position: relative;
 
   width: 100%;
