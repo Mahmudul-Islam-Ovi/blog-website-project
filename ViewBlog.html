@@ -1,104 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <title>Website menu 06</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/ViewBlog.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="./css/viewblog.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./bootstrap/js/bootstrap.min.js" async defer></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
 
 <body>
-    <!------------------------Header start----------------------------->
     <header>
-
-
-
-        <!-------------------------Nav Start--------------------->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="
+          navbar navbar-expand-lg navbar-light
+          ftco_navbar
+          bg-light
+          ftco-navbar-light
+        " id="ftco-navbar">
             <div class="container-fluid">
-                <a href="./index.html"><img src="./assets/image/Kate-logo.png" alt=""></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="./index.html">Papermag <span>Magazine</span></a>
+                <form action="#" class="searchform order-sm-start order-lg-last">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control pl-3" placeholder="Search" />
+                        <button type="submit" placeholder="" class="form-control search">
+                            <span class="fa fa-search"></span>
+                        </button>
+                    </div>
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                    aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span> Menu
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a href="./index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Category</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item" href="#">Page 1</a>
+                                <a class="dropdown-item" href="#">Page 2</a>
+                                <a class="dropdown-item" href="#">Page 3</a>
+                                <a class="dropdown-item" href="#">Page 4</a>
+                                <a class="dropdown-item" href="#">Page 5</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Category</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item" href="#">Page 1</a>
+                                <a class="dropdown-item" href="#">Page 2</a>
+                                <a class="dropdown-item" href="#">Page 3</a>
+                                <a class="dropdown-item" href="#">Page 4</a>
+                                <a class="dropdown-item" href="#">Page 5</a>
+                            </div>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a href="./fblogin.html" class="nav-link">log in</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Features
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <!---------------------2nd dropdown start------------>
-                                <li class="hover-me"><a class="dropdown-item" href="#">Multidropdown <i
-                                            class="fa fa-angle-right"></i></a>
-                                    <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                                        <li><a class="dropdown-item" href="#">Dropdown2</a></li>
-                                        <li><a class="dropdown-item" href="#">Dropdown3</a></li>
-                                    </ul>
-                                </li>
-                                <!---------------------2nd dropdown end------------>
-                                <li><a class="dropdown-item" href="#">Shortcodes</a></li>
-                                <li><a class="dropdown-item" href="#">Sitemap</a></li>
-                                <li><a class="dropdown-item" href="#">Error page</a></li>
+       
+                            <li class="nav-item dropdown">
+                                <a class=" dropdown-toggle"  href="#" id="dropdown04" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><div class="col-1 "> <img style="text-decoration: none;"
+                                        src="https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png"
+                                        width="55" class="rounded-circle mt-2"> </div></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                    <a class="dropdown-item" href="./FileUpload.html">Upload New Blog</a>
+                                    <a class="dropdown-item" href="#">Profile</a>
 
-                            </ul>
-                        </li>
+                                </div>
+                            </li>
+                            
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Documentation
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Web Documentation</a></li>
-                                <li><a class="dropdown-item" href="#">Video Documentation</a></li>
-                            </ul>
-                        </li>
 
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search this blog"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
                 </div>
             </div>
         </nav>
-        <!-------------------------Nav End--------------------->
-
-
-
-
-
-
+        <!-- END nav -->
     </header>
-    <!------------------------Header end----------------------------->
     <br />
 
     <div class="container">
@@ -239,7 +235,7 @@
                                         <div class="d-flex align-items-center mt-4">
                                             <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                                         class="ion-ios-arrow-round-forward"></span></a></p>
-                                  
+
                                         </div>
                                     </div>
                                 </div>
@@ -263,7 +259,7 @@
                                         <div class="d-flex align-items-center mt-4">
                                             <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                                         class="ion-ios-arrow-round-forward"></span></a></p>
-                                    
+
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +283,7 @@
                                         <div class="d-flex align-items-center mt-4">
                                             <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                                         class="ion-ios-arrow-round-forward"></span></a></p>
-                              
+
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +307,7 @@
                                         <div class="d-flex align-items-center mt-4">
                                             <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                                         class="ion-ios-arrow-round-forward"></span></a></p>
-                              
+
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +331,7 @@
                                         <div class="d-flex align-items-center mt-4">
                                             <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                                         class="ion-ios-arrow-round-forward"></span></a></p>
-                       
+
                                         </div>
                                     </div>
                                 </div>
@@ -685,45 +681,41 @@
             <!-----------Upper------------Portion------start--------->
             <div class="Upper-footer">
                 <div class="row">
-
                     <div class="left-part col-md-8 d-flex justify-content-center">
                         <div class="row">
-                            <div class="col-sm-4 ">
-                                <img src="./assets/image/Kate-logo-White.png" alt="">
+                            <div class="col-sm-4">
+                                <img src="./assets/image/Kate-logo-White.png" alt="" />
                             </div>
-                            <div class="col-sm-8 ">
-                                <p> lorem a ullam sapiente exercitationem Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                    Soluta minima alias tenetur, iste facilis dolores inventore odit explicabo libero
-                                    nisi unde
-                                    v oluptate laboriosam maxime quos assumenda. Officiis ratione ex eaque!
+                            <div class="col-sm-8">
+                                <p class="text-white">
+                                    lorem a ullam sapiente exercitationem Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Soluta minima alias
+                                    tenetur, iste facilis dolores inventore odit explicabo
+                                    libero nisi unde v oluptate laboriosam maxime quos
+                                    assumenda. Officiis ratione ex eaque!
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="right-part col-md-4 d-flex justify-content-center">
                         <a href="" style="background-color: #135db9"><i class="fab fa-facebook-f"></i></a>
-                        <a href="" style="background-color:  #428fef"><i class="fab fa-twitter"></i></a>
-                        <a href="" style="background-color:   #e0c110;"> <i class="fas fa-rss"></i></a>
-                        <a href="" style="background-color:  #b9275a;"><i class="fab fa-instagram"></i></a>
+                        <a href="" style="background-color: #428fef"><i class="fab fa-twitter"></i></a>
+                        <a href="" style="background-color: #e0c110">
+                            <i class="fas fa-rss"></i></a>
+                        <a href="" style="background-color: #b9275a"><i class="fab fa-instagram"></i></a>
                         <a href="" style="background-color: #e03a47"><i class="fab fa-youtube"></i></a>
-                        <a href="" style="background-color:  #0e76a8"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="" style="background-color: #0e76a8"><i class="fab fa-linkedin-in"></i></a>
                         <a href="" style="background-color: red"><i class="fab fa-pinterest"></i></a>
                     </div>
                 </div>
             </div>
             <!-----------Upper------------Portion------end--------->
 
-
-
-
             <!-----------Lower------------Portion------start--------->
 
             <div class="lower-footer">
                 <div class="row">
-
                     <div class="lower-left col-md-6 d-flex justify-content-center">
-
                         <a href="">Home</a>
                         <a href="">About</a>
                         <a href="">Contact Us</a>
@@ -731,29 +723,46 @@
                     <div class="lower-right col-md-6">
                         <p>Created By <span>SoraTemplates</span></p>
                     </div>
-
                 </div>
             </div>
             <!-----------Lower------------Portion------End--------->
-
-
-
         </div>
         <!---------------------------------------------footer End-------------------------------->
-
     </footer>
-
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
-        nonce="pkJUZamB"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
-
     <!-----------------------Scroll to top Button start ------------------>
     <div class="scroll-button">
-        <button class="scroll-btn" onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-circle-up"></i></button>
+        <button class="scroll-btn" onclick="topFunction()" id="myBtn">
+            <i class="fas fa-arrow-circle-up"></i>
+        </button>
     </div>
+
     <!-----------------------Scroll  to top Button end ------------------>
 
+    <!--
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+          -->
+
+    <!-------------------------------------submenu Js------------------------->
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+        nonce="pkJUZamB"></script>
+
+pt>
+
+    <!-- JavaScript Bundle with Popper -->
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main2.js"></script>
 </body>
 
 </html>
