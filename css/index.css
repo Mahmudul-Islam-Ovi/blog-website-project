@@ -500,3 +500,7 @@ a:hover {
 .scroll-btn:hover {
   opacity: 0.7;
 }
+.image_contain {
+  height: 250px;
+  object-fit: none;
+}
